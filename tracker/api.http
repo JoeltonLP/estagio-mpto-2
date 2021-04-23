@@ -1,0 +1,10 @@
+@baseURL = http://127.0.0.1:8000
+
+# @name createStates
+POST {{baseURL}}/api/states
+content-type: application/json
+
+{
+    "name": "Tocantins",
+    "abbreviation": "TO"
+}
